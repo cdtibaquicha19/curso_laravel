@@ -28,8 +28,13 @@
           </div>
           <div class="container">
             <div class="row">
+              <div class="p-3 m-2 bg-dark text-white">
+                
+                <?php
+                    echo "hola ";
+                ?>
 
-              
+              </div>
             </div>
 
 
