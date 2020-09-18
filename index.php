@@ -28,12 +28,36 @@
           </div>
           <div class="container">
             <div class="row">
+            <div class="col-12">
+                  <div class="p-3 m-2 bg-dark text-white">
+                  <h6>Clase variables y tipos de datos  : </h6>
+                    <?php
+                      $name = "max"; 
+                      $esviejo = true ;
+                      $year = 1994 ;
+                      $kms = 54.4 ;
+                      echo "hola " . $name ." " . $year ;
+                    ?>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
               <div class="p-3 m-2 bg-dark text-white">
-                
+                <h6>Clase operadores : </h6>
                 <?php
-                    echo "hola ";
-                ?>
+                  $num1 = 1 ; 
+                  $num2 = 1 ;
+                 // $resultado = $num1 + $num2  ; 
 
+                 echo " El resultado  de la suma  es : ". ($num1+$num2) ."<br>"; 
+                 echo " El resultado  de la resta  es : ". ($num1-$num2) ."<br>"; 
+                 echo " El resultado  de la multiplicacion  es : ". ($num1*$num2) ."<br>"; 
+                 echo " El resultado  de la exponenciacion  es : ". ($num1**$num2) ."<br>"; 
+                 
+
+                ?>
+              </div>
               </div>
             </div>
 
